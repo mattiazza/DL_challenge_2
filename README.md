@@ -18,6 +18,7 @@ Multiple days of historical observations
 76 weather variables per day per station
 
 ### Repository Structure
+```
 dl_challenge2/
 ├── data/                     # Data directory
 │   ├── train_dataset.csv     # Training data
@@ -35,7 +36,7 @@ dl_challenge2/
 ├── predict.py                # Prediction generation script
 ├── pyproject.toml            # Project dependencies
 └── README.md                 # Project documentation
-
+```
 ### Usage
 The repository provides functionalities for training weather forecasting models and generating predictions for future time steps in the required format for evaluation.
 
